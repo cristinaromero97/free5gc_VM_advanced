@@ -38,7 +38,7 @@ configuration:
             ipv4: 8.8.8.8
             ipv6: 2001:4860:4860::8888
   pfcp: # the IP address of N4 interface on this SMF (PFCP)
-    addr: 196.168.56.101
+    addr: 192.168.56.101
   userplane_information: # list of userplane information
     up_nodes: # information of userplane node (AN or UPF)
       gNB1: # the name of the node
