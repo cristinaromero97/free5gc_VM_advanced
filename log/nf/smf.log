@@ -1,0 +1,16 @@
+time="2021-05-19T07:45:37Z" level=info msg="SMF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:04Z\n\tcommit hash:     3437241a\n\tcommit time:     2021-03-25T20:31:42Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="SMF Log level is set to [info] level" category=Init component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="SMF config version [1.0.0]" category=CFG component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="UE-Routing config version [1.0.0]" category=CFG component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="smfconfig Info: Version[1.0.0] Description[SMF initial local configuration]" category=CTX component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Endpoints: [127.0.0.8]" category=CTX component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Server started" category=Init component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="SMF Registration to NRF {d0dffc32-cee1-40fc-a139-7e666e0723e2 SMF REGISTERED 0 0xc0002f1aa0 0xc0002f1ae0 [] []   [127.0.0.2] [] <nil> [] [] <nil> 0 0 0  <nil> <nil> <nil> <nil> 0xc0002b4fc0 <nil> <nil> <nil> <nil> <nil> map[] <nil> false 0xc0002f1920 false false []}" category=Init component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Listen on 127.0.0.1:8805" category=PFCP component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Send PFCP Association Request to UPF[127.0.0.8]\n" category=App component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="In HandlePfcpAssociationSetupResponse" category=PFCP component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Handle PFCP Association Setup Response with NodeID[127.0.0.8]" category=PFCP component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="UPF(127.0.0.8)[internet] setup association" category=PFCP component=SMF
+time="2021-05-19T07:45:56Z" level=info msg="Terminating SMF..." category=Init component=SMF
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=Consumer component=SMF
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=SMF

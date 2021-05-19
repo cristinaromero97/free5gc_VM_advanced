@@ -1,0 +1,10 @@
+time="2021-05-19T07:45:38Z" level=info msg="UDM version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:07Z\n\tcommit hash:     e89dcbf1\n\tcommit time:     2021-01-30T17:09:19Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="UDM Log level is set to [info] level" category=Init component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="config version [1.0.0]" category=CFG component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="UDM Config Info: Version[1.0.0] Description[UDM initial local configuration]" category=Init component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="Server started" category=Init component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="udmconfig Info: Version[1.0.0] Description[UDM initial local configuration]" category=Util component=UDM
+time="2021-05-19T07:45:56Z" level=info msg="Terminating UDM..." category=Init component=UDM
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=Consumer component=UDM
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=UDM
+time="2021-05-19T07:45:57Z" level=info msg="UDM terminated" category=Init component=UDM

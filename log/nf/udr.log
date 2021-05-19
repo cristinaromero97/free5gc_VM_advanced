@@ -1,0 +1,11 @@
+time="2021-05-19T07:45:37Z" level=info msg=udr category=App component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="UDR version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:10Z\n\tcommit hash:     d634e21e\n\tcommit time:     2021-01-30T17:13:49Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="UDR Log level is set to [info] level" category=Init component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="config version [1.0.0]" category=CFG component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="UDR Config Info: Version[1.0.0] Description[UDR initial local configuration]" category=Init component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="Server started" category=Init component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="udrconfig Info: Version[1.0.0] Description[UDR initial local configuration]" category=Util component=UDR
+time="2021-05-19T07:45:56Z" level=info msg="Terminating UDR..." category=Init component=UDR
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=Consumer component=UDR
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=UDR
+time="2021-05-19T07:45:57Z" level=info msg="UDR terminated" category=Init component=UDR

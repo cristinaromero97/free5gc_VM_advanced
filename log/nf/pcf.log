@@ -1,0 +1,9 @@
+time="2021-05-19T07:45:38Z" level=info msg="PCF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:02Z\n\tcommit hash:     fed73727\n\tcommit time:     2021-01-30T16:47:50Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="PCF Log level is set to [info] level" category=Init component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="config version [1.0.0]" category=CFG component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="Server started" category=Init component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="pcfconfig Info: Version[1.0.0] Description[PCF initial local configuration]" category=Util component=PCF
+time="2021-05-19T07:45:56Z" level=info msg="Terminating PCF..." category=Init component=PCF
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=Consumer component=PCF
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=PCF
+time="2021-05-19T07:45:57Z" level=info msg="PCF terminated" category=Init component=PCF

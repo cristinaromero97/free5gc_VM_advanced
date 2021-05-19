@@ -1,0 +1,187 @@
+time="2021-05-19T07:45:37Z" level=info msg="NRF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:43:57Z\n\tcommit hash:     386a6bdd\n\tcommit time:     2021-01-30T15:57:26Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="NRF Log level is set to [info] level" category=Init component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=OAPI component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=OAPI component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=MonDB component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=MonDB component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="config version [1.0.0]" category=CFG component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="Server started" category=Init component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="nrfconfig Info: Version[1.0.0] Description[NRF initial local configuration]" category=Init component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="Binding addr: [127.0.0.10:8000]" category=Init component=NRF
+time="2021-05-19T07:45:37Z" level=info msg=amf category=App component=AMF
+time="2021-05-19T07:45:37Z" level=info msg="AMF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:43:49Z\n\tcommit hash:     6e0202ce\n\tcommit time:     2021-03-22T08:13:01Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=AMF
+time="2021-05-19T07:45:37Z" level=info msg="AMF Log level is set to [info] level" category=Init component=AMF
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=NAS component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=NAS component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=NGAP component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=NGAP component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=FSM component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=FSM component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=Aper component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=Aper component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=OAPI component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=OAPI component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="config version [1.0.0]" category=CFG component=AMF
+time="2021-05-19T07:45:37Z" level=info msg="Server started" category=Init component=AMF
+time="2021-05-19T07:45:37Z" level=info msg="amfconfig Info: Version[1.0.0] Description[AMF initial local configuration]" category=Util component=AMF
+time="2021-05-19T07:45:37Z" level=info msg="Listen on 127.0.0.1:38412" category=NGAP component=AMF
+time="2021-05-19T07:45:37Z" level=info msg="Handle NFRegisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="urilist create" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="Create NF Profile" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="Location header:  http://127.0.0.10:8000/nnrf-nfm/v1/nf-instances/aa4b8bde-b7f8-4144-ac51-6a2109751c92" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/aa4b8bde-b7f8-4144-ac51-6a2109751c92 | " category=GIN component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="SMF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:04Z\n\tcommit hash:     3437241a\n\tcommit time:     2021-03-25T20:31:42Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="SMF Log level is set to [info] level" category=Init component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=NAS component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=NAS component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=NGAP component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=NGAP component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=Aper component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=Aper component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=OAPI component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=OAPI component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=PFCP component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=PFCP component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="SMF config version [1.0.0]" category=CFG component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="UE-Routing config version [1.0.0]" category=CFG component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="smfconfig Info: Version[1.0.0] Description[SMF initial local configuration]" category=CTX component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Endpoints: [127.0.0.8]" category=CTX component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Server started" category=Init component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Handle NFRegisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="urilist create" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="Create NF Profile" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="Location header:  http://127.0.0.10:8000/nnrf-nfm/v1/nf-instances/d0dffc32-cee1-40fc-a139-7e666e0723e2" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/d0dffc32-cee1-40fc-a139-7e666e0723e2 | " category=GIN component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="SMF Registration to NRF {d0dffc32-cee1-40fc-a139-7e666e0723e2 SMF REGISTERED 0 0xc0002f1aa0 0xc0002f1ae0 [] []   [127.0.0.2] [] <nil> [] [] <nil> 0 0 0  <nil> <nil> <nil> <nil> 0xc0002b4fc0 <nil> <nil> <nil> <nil> <nil> map[] <nil> false 0xc0002f1920 false false []}" category=Init component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Listen on 127.0.0.1:8805" category=PFCP component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Send PFCP Association Request to UPF[127.0.0.8]\n" category=App component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="In HandlePfcpAssociationSetupResponse" category=PFCP component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Handle PFCP Association Setup Response with NodeID[127.0.0.8]" category=PFCP component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="UPF(127.0.0.8)[internet] setup association" category=PFCP component=SMF
+time="2021-05-19T07:45:37Z" level=info msg="Remove Request Transaction [1]\n" category=PFCP component=LIB
+time="2021-05-19T07:45:37Z" level=info msg=udr category=App component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="UDR version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:10Z\n\tcommit hash:     d634e21e\n\tcommit time:     2021-01-30T17:13:49Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="UDR Log level is set to [info] level" category=Init component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=OAPI component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=OAPI component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set log level : info" category=MonDB component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="set report call : false" category=MonDB component=LIB
+time="2021-05-19T07:45:37Z" level=info msg="config version [1.0.0]" category=CFG component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="UDR Config Info: Version[1.0.0] Description[UDR initial local configuration]" category=Init component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="Server started" category=Init component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="udrconfig Info: Version[1.0.0] Description[UDR initial local configuration]" category=Util component=UDR
+time="2021-05-19T07:45:37Z" level=info msg="Handle NFRegisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="urilist create" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="Create NF Profile" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="Location header:  http://127.0.0.10:8000/nnrf-nfm/v1/nf-instances/2f8c2384-c511-4897-9d2a-bf45649e9da5" category=MGMT component=NRF
+time="2021-05-19T07:45:37Z" level=info msg="| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/2f8c2384-c511-4897-9d2a-bf45649e9da5 | " category=GIN component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="PCF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:02Z\n\tcommit hash:     fed73727\n\tcommit time:     2021-01-30T16:47:50Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="PCF Log level is set to [info] level" category=Init component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="set log level : info" category=OAPI component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="set report call : false" category=OAPI component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="config version [1.0.0]" category=CFG component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="Server started" category=Init component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="pcfconfig Info: Version[1.0.0] Description[PCF initial local configuration]" category=Util component=PCF
+time="2021-05-19T07:45:38Z" level=info msg="Handle NFRegisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="urilist create" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Create NF Profile" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Location header:  http://127.0.0.10:8000/nnrf-nfm/v1/nf-instances/858b672f-a8f9-4fec-ad3d-bb9c7440cd0c" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/858b672f-a8f9-4fec-ad3d-bb9c7440cd0c | " category=GIN component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Handle NFDiscoveryRequest" category=DSCV component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="| 200 |       127.0.0.1 | GET     | /nnrf-disc/v1/nf-instances?requester-nf-type=PCF&service-names=nudr-dr&target-nf-type=UDR | " category=GIN component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="UDM version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:07Z\n\tcommit hash:     e89dcbf1\n\tcommit time:     2021-01-30T17:09:19Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="UDM Log level is set to [info] level" category=Init component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="set log level : info" category=OAPI component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="set report call : false" category=OAPI component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="config version [1.0.0]" category=CFG component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="UDM Config Info: Version[1.0.0] Description[UDM initial local configuration]" category=Init component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="Server started" category=Init component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="udmconfig Info: Version[1.0.0] Description[UDM initial local configuration]" category=Util component=UDM
+time="2021-05-19T07:45:38Z" level=info msg="Handle NFRegisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="urilist create" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Create NF Profile" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Location header:  http://127.0.0.10:8000/nnrf-nfm/v1/nf-instances/aabc4b5f-923a-43c2-9adb-4aac069d75a3" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/aabc4b5f-923a-43c2-9adb-4aac069d75a3 | " category=GIN component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="NSSF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:00Z\n\tcommit hash:     51759368\n\tcommit time:     2021-01-30T16:03:22Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=NSSF
+time="2021-05-19T07:45:38Z" level=info msg="NSSF Log level is set to [info] level" category=Init component=NSSF
+time="2021-05-19T07:45:38Z" level=info msg="set log level : info" category=OAPI component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="set report call : false" category=OAPI component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="config version [1.0.0]" category=CFG component=NSSF
+time="2021-05-19T07:45:38Z" level=info msg="Server started" category=Init component=NSSF
+time="2021-05-19T07:45:38Z" level=info msg="Handle NFRegisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="urilist create" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Create NF Profile" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Location header:  http://127.0.0.10:8000/nnrf-nfm/v1/nf-instances/145f18e9-a644-4f59-a8a1-ce652fbb8b7f" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/145f18e9-a644-4f59-a8a1-ce652fbb8b7f | " category=GIN component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="AUSF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:43:55Z\n\tcommit hash:     048e447a\n\tcommit time:     2021-01-30T15:36:12Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=AUSF
+time="2021-05-19T07:45:38Z" level=info msg="AUSF Log level is set to [info] level" category=Init component=AUSF
+time="2021-05-19T07:45:38Z" level=info msg="set log level : info" category=OAPI component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="set report call : false" category=OAPI component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="config version [1.0.0]" category=CFG component=AUSF
+time="2021-05-19T07:45:38Z" level=info msg="Server started" category=Init component=AUSF
+time="2021-05-19T07:45:38Z" level=info msg="ausfconfig Info: Version[1.0.0] Description[AUSF initial local configuration]\n" category=Init component=AUSF
+time="2021-05-19T07:45:38Z" level=info msg="Handle NFRegisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="urilist create" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Create NF Profile" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="Location header:  http://127.0.0.10:8000/nnrf-nfm/v1/nf-instances/d26e5470-6f00-4b9e-8028-247dc2c7bec4" category=MGMT component=NRF
+time="2021-05-19T07:45:38Z" level=info msg="| 201 |       127.0.0.1 | PUT     | /nnrf-nfm/v1/nf-instances/d26e5470-6f00-4b9e-8028-247dc2c7bec4 | " category=GIN component=NRF
+time="2021-05-19T07:45:38Z" level=info msg=n3iwf category=App component=N3IWF
+time="2021-05-19T07:45:38Z" level=info msg="N3IWF version:  \n\tfree5GC version: v3.0.5-4-g5c4280f\n\tbuild time:      2021-05-19T07:44:12Z\n\tcommit hash:     a1128106\n\tcommit time:     2021-01-30T16:37:23Z\n\tgo version:      go1.14.4 linux/amd64" category=App component=N3IWF
+time="2021-05-19T07:45:38Z" level=info msg="N3IWF Log level is set to [info] level" category=Init component=N3IWF
+time="2021-05-19T07:45:38Z" level=info msg="set log level : info" category=NGAP component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="set report call : false" category=NGAP component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="set log level : info" category=Aper component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="set report call : false" category=Aper component=LIB
+time="2021-05-19T07:45:38Z" level=info msg="config version [1.0.0]" category=CFG component=N3IWF
+time="2021-05-19T07:45:38Z" level=info msg="Server started" category=Init component=N3IWF
+time="2021-05-19T07:45:38Z" level=warning msg="No private key file path specified, load default key file..." category=Context component=N3IWF
+time="2021-05-19T07:45:38Z" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2021-05-19T07:45:38Z" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2021-05-19T07:45:38Z" level=warning msg="No certificate authority file path specified, load default CA certificate..." category=Context component=N3IWF
+time="2021-05-19T07:45:38Z" level=warning msg="No certificate file path specified, load default certificate..." category=Context component=N3IWF
+time="2021-05-19T07:45:56Z" level=info msg="Terminating AUSF..." category=Init component=AUSF
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=App component=AUSF
+time="2021-05-19T07:45:56Z" level=info msg="Terminating NSSF..." category=Init component=NSSF
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=App component=NSSF
+time="2021-05-19T07:45:56Z" level=info msg="Terminating UDM..." category=Init component=UDM
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=Consumer component=UDM
+time="2021-05-19T07:45:56Z" level=info msg="Terminating SMF..." category=Init component=SMF
+time="2021-05-19T07:45:56Z" level=info msg="Terminating AMF..." category=Init component=AMF
+time="2021-05-19T07:45:56Z" level=info msg="[AMF] Send Deregister NFInstance" category=Consumer component=AMF
+time="2021-05-19T07:45:56Z" level=info msg="Terminating UDR..." category=Init component=UDR
+time="2021-05-19T07:45:56Z" level=info msg="Terminating PCF..." category=Init component=PCF
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=Consumer component=UDR
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=Consumer component=PCF
+time="2021-05-19T07:45:56Z" level=info msg="Handle NFDeregisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:56Z" level=info msg="Handle NFDeregisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:56Z" level=info msg="Handle NFDeregisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:56Z" level=info msg="Handle NFDeregisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:56Z" level=info msg="Handle NFDeregisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:56Z" level=info msg="Handle NFDeregisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:56Z" level=info msg="Send Deregister NFInstance" category=Consumer component=SMF
+time="2021-05-19T07:45:56Z" level=info msg="Handle NFDeregisterRequest" category=MGMT component=NRF
+time="2021-05-19T07:45:57Z" level=info msg="| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/858b672f-a8f9-4fec-ad3d-bb9c7440cd0c | " category=GIN component=NRF
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=PCF
+time="2021-05-19T07:45:57Z" level=info msg="PCF terminated" category=Init component=PCF
+time="2021-05-19T07:45:57Z" level=info msg="| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/aa4b8bde-b7f8-4144-ac51-6a2109751c92 | " category=GIN component=NRF
+time="2021-05-19T07:45:57Z" level=info msg="[AMF] Deregister from NRF successfully" category=Init component=AMF
+time="2021-05-19T07:45:57Z" level=info msg="Send AMF Status Indication to Notify RANs due to AMF terminating" category=Init component=AMF
+time="2021-05-19T07:45:57Z" level=info msg="Close SCTP server..." category=NGAP component=AMF
+time="2021-05-19T07:45:57Z" level=info msg="SCTP server closed" category=NGAP component=AMF
+time="2021-05-19T07:45:57Z" level=info msg="AMF terminated" category=Init component=AMF
+time="2021-05-19T07:45:57Z" level=info msg="| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/d26e5470-6f00-4b9e-8028-247dc2c7bec4 | " category=GIN component=NRF
+time="2021-05-19T07:45:57Z" level=info msg="| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/aabc4b5f-923a-43c2-9adb-4aac069d75a3 | " category=GIN component=NRF
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=UDM
+time="2021-05-19T07:45:57Z" level=info msg="UDM terminated" category=Init component=UDM
+time="2021-05-19T07:45:57Z" level=info msg="| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/145f18e9-a644-4f59-a8a1-ce652fbb8b7f | " category=GIN component=NRF
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=AUSF
+time="2021-05-19T07:45:57Z" level=info msg="AUSF terminated" category=Init component=AUSF
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=NSSF
+time="2021-05-19T07:45:57Z" level=info msg="NSSF terminated" category=Init component=NSSF
+time="2021-05-19T07:45:57Z" level=info msg="| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/2f8c2384-c511-4897-9d2a-bf45649e9da5 | " category=GIN component=NRF
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=UDR
+time="2021-05-19T07:45:57Z" level=info msg="UDR terminated" category=Init component=UDR
+time="2021-05-19T07:45:57Z" level=info msg="| 204 |       127.0.0.1 | DELETE  | /nnrf-nfm/v1/nf-instances/d0dffc32-cee1-40fc-a139-7e666e0723e2 | " category=GIN component=NRF
+time="2021-05-19T07:45:57Z" level=info msg="Deregister from NRF successfully" category=Init component=SMF
+time="2021-05-19T07:45:58Z" level=info msg="Terminating NRF..." category=Init component=NRF
+time="2021-05-19T07:45:58Z" level=info msg="NRF terminated" category=Init component=NRF
