@@ -1,39 +1,63 @@
-<p align="center">
-<a href="https://free5gc.org"><img width="40%" src="https://forum.free5gc.org/uploads/default/original/1X/324695bfc6481bd556c11018f2834086cf5ec645.png" alt="free5GC"/></a>
-</p>
+#  TFM Cristina Romero - free5gc. Escenario avanzado.
 
-<p align="center">
-<a href="https://github.com/free5gc/free5gc/releases"><img src="https://img.shields.io/github/v/release/free5gc/free5gc?color=orange" alt="Release"/></a>
-<a href="https://github.com/free5gc/free5gc/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/free5gc/free5gc?color=blue" alt="License"/></a>
-<a href="https://forum.free5gc.org"><img src="https://img.shields.io/discourse/topics?server=https%3A%2F%2Fforum.free5gc.org&color=lightblue" alt="Forum"/></a>
-<a href="https://www.codefactor.io/repository/github/free5gc/free5gc"><img src="https://www.codefactor.io/repository/github/free5gc/free5gc/badge" alt="CodeFactor" /></a>
-<a href="https://goreportcard.com/report/github.com/free5gc/free5gc"><img src="https://goreportcard.com/badge/github.com/free5gc/free5gc" alt="Go Report Card" /></a>
-<a href="https://github.com/free5gc/free5gc/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen" alt="PRs Welcome"/></a>
-</p>
+# Instalar paquetes
 
-## What is free5GC
+Solo es necesario hacerlo una vez, en las máquines que vayan a ejecutar el núcleo de red y los UPF.
 
-The free5GC is an open-source project for 5th generation (5G) mobile core networks. The ultimate goal of this project is to implement the 5G core network (5GC) defined in 3GPP Release 15 (R15) and beyond.
+```
+sh install_go.sh
+source ~/.bashrc
+sh install_free5gc.sh
+make
+```
 
-For more information, please refer to [free5GC official site](https://free5gc.org/).
 
-## Documentation
+# Configuración y lanzamiento escenario avanzado
 
-For document, please reference to [Documentation](https://github.com/free5gc/free5gc/wiki).
+En la máquina donde correrán las funciones de control ejecutar:
+```
+sudo cp myConfig/amfcfg.yaml config/amfcfg.yaml
+sudo cp myConfig/smfcfg.yaml config/smfcfg.yaml
+```
 
-## Discussion
 
-For questions and support please use the [official forum](https://forum.free5gc.org). The issue list of this repo is exclusively for bug reports and feature requests.
+En la máquina UPF1 ejecutar:
+```
+sudo cp myConfig/upf1.yaml NFs/upf/build/config/upfcfg.yaml
+```
 
-## Contributing
+En la máquina UPF2 ejecutar:
+```
+sudo cp myConfig/upf2.yaml NFs/upf/build/config/upfcfg.yaml
+```
 
-We're welcome for contribution via [GitHub Pull Request](https://github.com/free5gc/free5gc/pulls).
+Si se ha reiniciado las MVs UPF es necesario relizar la configuración del enrutado y NAPT en cada una.
 
-## Release Note
+```
+sh upf1_network_config.sh #En UPF1
+sh upf2_network_config.sh #En UPF2
+```
 
-Detailed changes for each release are documented in the release notes.Detailed changes for each release are documented in the [release notes](https://github.com/free5gc/free5gc/releases).
 
-## License
+Para la ejecutar el escenario:
 
-free5GC is now under [Apache 2.0](https://github.com/free5gc/free5gc/blob/master/LICENSE.txt) license.
+Primero lanzar los UPFs ejecutando en cada uno:
 
+```
+cd free5gc/NFs/upf/build
+sudo bin/free5gc-upfd
+```
+
+A continuación, lanzar el plano de control con la siguientes funciones ejecutando el siguiente script:
+```
+bash run_control_NFs.sh
+```
+
+
+# Webconsole
+
+```
+make webconsole
+cd webconsole
+go run server.go
+```
